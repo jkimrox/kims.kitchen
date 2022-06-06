@@ -32,7 +32,7 @@ https://www.themealdb.com/api.php
 
 ## User Stories
 
-- As a user, I want to search for recipe.
+- As a user, I want to search for a specific recipe.
 - As a user, I want to be able to create and add new recipes to the catalog.
 - As a user, I want to be able to navigate to each route (Home, Show, Search, Create).
 
