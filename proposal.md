@@ -6,7 +6,7 @@ An application that displays a recipe book and allows users to look up and add m
 
 ## Link to the API you plan to use
 
-https://www.themealdb.com/api.php
+https://developer.edamam.com/edamam-recipe-api
 
 ## Example data reponse 
 
