@@ -10,17 +10,25 @@ https://www.themealdb.com/api.php
 
 ## Example data reponse 
 
-[image here]
+![Data Response](https://user-images.githubusercontent.com/102046331/172191230-43ed7e1f-d082-4fee-8579-68ef19666759.png)
 
 ## Wireframes
 
 ### Home
 
+![Home Route](https://user-images.githubusercontent.com/102046331/172191051-1b6020ea-0a05-4e9c-a8f4-7307d358f350.png)
+
 ### Show
+
+![Show Route](https://user-images.githubusercontent.com/102046331/172191089-a51c7191-ac48-4f27-bd4d-c27ef10f78fa.png)
 
 ### Create
 
+![Create Route](https://user-images.githubusercontent.com/102046331/172191124-6ba09ec4-ff97-438d-a7f3-5926f989369d.png)
+
 ### Search
+
+![Search Route](https://user-images.githubusercontent.com/102046331/172191175-b9109765-28e7-4330-96c2-9a5cf6e778dc.png)
 
 ## User Stories
 
