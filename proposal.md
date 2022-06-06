@@ -36,6 +36,11 @@ https://developer.edamam.com/edamam-recipe-api
 - As a user, I want to be able to create and add new recipes to the catalog.
 - As a user, I want to be able to navigate to each route (Home, Show, Search, Create).
 
+## Stretch Goals
+
+- As a user, I want to be able to create my own username and password.
+- As a user, I want to be able to catalog my own recipes to my private directory.
+
 ## Milestones
 
 I expect to have a working front end (React) for my application done within the first couple of days and a working back end (MongoDB) with CRUD functionality done a day or so after. After that, I can then focus on styling of the application.
