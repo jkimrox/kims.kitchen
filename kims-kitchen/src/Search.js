@@ -8,7 +8,7 @@ const Search = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('chicken');
+  const [query, setQuery] = useState('steak');
 
   useEffect(() =>{
     getRecipes();
@@ -44,6 +44,7 @@ const Search = () => {
         <Recipe 
         key={recipe.recipe.label}
         title={recipe.recipe.label} 
+        dietlabel={recipe.recipe.dietLabels}
         image={recipe.recipe.image}
         ingredients={recipe.recipe.ingredients} />
       ))};

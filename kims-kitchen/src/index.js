@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import Nav from "./components/nav"
 import Search from './Search';
+import About from './About';
 
 
 
@@ -17,6 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Search" element={<Search />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   </React.StrictMode>
