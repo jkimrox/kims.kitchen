@@ -1,8 +1,8 @@
 import React,{useEffect, useState} from "react";
 import Recipe from './Recipe';
-import './App.css';
+import './Search.css';
 
-const App = () => {
+const Search = () => {
   const APP_ID = "10a18ab0";
   const APP_KEY = "2f6449ab077ad0a3cc21107e93b261c9";
 
@@ -52,4 +52,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default Search;
