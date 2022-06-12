@@ -16,10 +16,12 @@ const Nav = (props) => {
             <Link className = "nav-link" to="/About">
                 <div>About</div>
             </Link>
-            <Link className = "nav-link" to="/CustomRecipes">
+            <Link className = "nav-link" to="/CreatedRecipes">
+                <div>Custom Recipe</div>
+            </Link>
+            <Link className = "nav-link" to="/NewRecipe">
                 <div>Create a Recipe</div>
             </Link>
-
         </div>
     )
 }

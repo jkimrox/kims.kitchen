@@ -7,8 +7,8 @@ import {Routes, Route} from 'react-router-dom';
 import Nav from "./components/nav"
 import Search from './Search';
 import About from './About';
-import CustomRecipes from './CustomRecipes';
-import Create from './Create';
+import NewRecipe from './NewRecipe';
+import CreatedRecipes from './CreatedRecipe';
 
 
 
@@ -20,7 +20,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Search" element={<Search />} />
-        <Route path="/CustomRecipes" element={<CustomRecipes />} />
+        <Route path="/NewRecipe" element={<NewRecipe />} />
+        <Route path="/CreatedRecipes" element={<CreatedRecipes />} />
         <Route path="/About" element={<About />} />
       </Routes>
     </Router>
