@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import './createdrecipes.css'
 
 function CreatedRecipes() {
     const [recipes, setRecipes] = useState([{
@@ -16,14 +17,16 @@ function CreatedRecipes() {
         }).then(jsonRes => setRecipes(jsonRes));
     })
     
-    return <div>
+    return <div className="created-recipe">
         <h1>Created Recipes</h1>
         {recipes.map(recipe =>
         <div>
             <h1>{recipe.title}</h1>
             <p>{recipe.diet_label}</p>
-            <p>{recipe.image}</p>
-            <p>{recipe.ingredients}</p>
+            <ul>
+                <li>{recipe.ingredients}</li>
+            </ul>
+            <img className={recipe.image} src={recipe.image} alt=""/>
         </div>
         )}
     </div>
