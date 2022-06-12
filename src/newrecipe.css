@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.container{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px grey;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+    font-family: Montserrat;
+}

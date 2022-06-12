@@ -18,7 +18,7 @@ function CreatedRecipes() {
     })
     
     return <div className="created-recipe">
-        <h1>Created Recipes</h1>
+        <h1>Family Recipes</h1>
         {recipes.map(recipe =>
         <div>
             <h1>{recipe.title}</h1>
