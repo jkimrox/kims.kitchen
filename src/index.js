@@ -8,6 +8,7 @@ import Nav from "./components/nav"
 import Search from './Search';
 import About from './About';
 import CustomRecipes from './CustomRecipes';
+import Create from './Create';
 
 
 
