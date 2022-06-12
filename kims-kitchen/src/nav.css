@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    font-size: 35px;
+    background-color: white;
+    color: inherit;
+    font-family: Montserrat;
+}
+
+.nav a {
+    text-decoration: none;
+}
