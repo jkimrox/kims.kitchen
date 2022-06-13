@@ -11,13 +11,13 @@ const Nav = (props) => {
                 <div>Home</div>
             </Link>
             <Link className = "nav-link" to="/Search">
-                <div>Search for a Recipe</div>
+                <div>Search for a Dish</div>
             </Link>
             <Link className = "nav-link" to="/CreatedRecipes">
-                <div>Family Recipes</div>
+                <div>Family Dishes</div>
             </Link>
             <Link className = "nav-link" to="/NewRecipe">
-                <div>Create a Recipe</div>
+                <div>Create a Dish</div>
             </Link>
             <Link className = "nav-link" to="/About">
                 <div>About</div>
