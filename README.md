@@ -68,7 +68,7 @@ Finally, to start the application, type "npm start" to have it running locally o
 
 ## Data Relationships
 
-
+![Screen Shot 2022-06-13 at 7 35 08 AM](https://user-images.githubusercontent.com/102046331/173355137-a7f81028-864c-4544-b2fd-ac1ed4136cef.png)
 
 ## Unsolved Problems/Future Features
 
