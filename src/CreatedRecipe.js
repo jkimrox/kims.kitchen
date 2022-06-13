@@ -28,6 +28,7 @@ function CreatedRecipes() {
             </ul>
             <img className="food-image" src={recipe.image} alt=""/>
         </div>
+        
         )}
     </div>
 }

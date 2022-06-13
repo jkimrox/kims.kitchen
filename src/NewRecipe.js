@@ -34,25 +34,25 @@ const [input, setInput] = useState({
     }
 
     return <div className='container'>
-        <h1>Create Recipe Page</h1>
+        <h1>Create Dish Page</h1>
         <form>
             <div className='form-group'>
-                <input onChange={handleChange} name='title' value={input.title} className='form-control' autoComplete="off" placeholder="Recipe Title"></input>
+                <input onChange={handleChange} name='title' value={input.title} className='form-control' autoComplete="off" placeholder="Dish Title"></input>
             </div>
 
             <div className='form-group'>
-                <textarea onChange={handleChange} name="diet_label" value={input.diet_label} className='form-control' autoComplete="off" placeholder="Recipe Diet Label"></textarea>
+                <textarea onChange={handleChange} name="diet_label" value={input.diet_label} className='form-control' autoComplete="off" placeholder="Dish Diet Label"></textarea>
             </div>
 
             <div className='form-group'>
-                <textarea onChange={handleChange} name="image" value={input.image} className='form-control' autoComplete="off" placeholder="Recipe Image"></textarea>
+                <textarea onChange={handleChange} name="image" value={input.image} className='form-control' autoComplete="off" placeholder="Dish Image"></textarea>
             </div>
 
             <div className='form-group'>
-                <textarea onChange={handleChange} name="ingredients" value= {input.ingredients} className='form-control' autoComplete="off" placeholder="Recipe Ingredients"></textarea>
+                <textarea onChange={handleChange} name="ingredients" value= {input.ingredients} className='form-control' autoComplete="off" placeholder="Dish Ingredients"></textarea>
             </div>
 
-            <button onClick={handleClick}>Add Recipe</button>
+            <button onClick={handleClick}>Add Dish</button>
         </form>
     </div>
 }
