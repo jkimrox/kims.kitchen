@@ -11,4 +11,5 @@
     align-items: center;
     min-width: 40%;
     font-family: Montserrat;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
 }

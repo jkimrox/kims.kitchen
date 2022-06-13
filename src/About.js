@@ -6,8 +6,8 @@ const About = (props) => {
     <div className="About">
         <section className='kim-home'>
             <h1 className="main-title">Behind the Scenes at Kim's Kitchen</h1>
-            <h2 className="main-body">Your source for everything food related!</h2>
-            {/* <img src="https://ih1.redbubble.net/image.1401903710.4969/pp,840x830-pad,1000x1000,f8f8f8.jpg" className="main-image" alt=""></img> */}
+            <img src="https://i.ibb.co/RHHptt8/image.png" className="main-image" alt=""></img>
+            <h2 className="main-body">Kim's Kitchen was founded on the idea between the bond between a mother and her son.</h2>
         </section>
     </div>
     )

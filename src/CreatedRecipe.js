@@ -26,7 +26,7 @@ function CreatedRecipes() {
             <ul>
                 <li>{recipe.ingredients}</li>
             </ul>
-            <img className={recipe.image} src={recipe.image} alt=""/>
+            <img className="food-image" src={recipe.image} alt=""/>
         </div>
         )}
     </div>
