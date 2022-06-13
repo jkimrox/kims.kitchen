@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Kim's Kitchen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Link
 
-## Available Scripts
+https://kim-kitchen-v1.herokuapp.com/
 
-In the project directory, you can run:
+## GitHub Repository
 
-### `npm start`
+https://github.com/jkimrox/kims.kitchen
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Kim's Kitchen is a full MERN stack application that utilizes a front end of React and a backend of MongoDB hosted by Heroku. The application allows users to search for possible dishes that they might possibly make and also permits them to add their own dishes to the site as well. Users might be inclined to spend hours on this application as the possibilities are truly endless with the amount of dishes that are available to view and even create on their own.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML, CSS, JavaScript
+- React
+- MongoDB
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First, install the application by clicking on the provided GitHub repo link and then clicking the green Code button and copying the link.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Next, open your terminal application and land in your desired directory in which you hope to install this application in.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Then enter "git clone (link copied from GitHub)" to install Kim's Kitchen.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+And then enter "code ." to open it in the code editor of your choice.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Finally, to start the application, type "npm start" to have it running locally on your PC. The default local host should be localhost:3000 in your browser.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Search for a Dish
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Family Dishes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Create a Dish
+
+
+
+### About
+
+
+
+## User Stories
+
+- As a user, I want to search for a specific recipe.
+- As a user, I want to be able to create and add new recipes to the catalog.
+- As a user, I want to be able to navigate to each route (Home, Search, Create).
+
+## Data Relationships
+
+
+
+## Unsolved Problems/Future Features
+
+In the future, I would like to implement full CRUD functionality (mainly adding update, delete, and review routes) and also, I would have liked to spend more time styling the application. This was a challenge for me as I still do not feel super comfortable with React as a whole, but know I am getting better with it each second. This project was a test of trying to connect a frontend with a backend and I am happy with the result.
+
+
+
+
